@@ -139,11 +139,11 @@ Define a function that will:
 count from 1 to 100,
 on numbers divisible with 4 print “Hey”,
 on numbers divisible with 6 print “There”,
-on numbers divisible with both 4 and 6 print “Ironhack”,
+on numbers divisible with both 4 and 6 print “Ironhack”, // I could not make this part work, if anyone could help me with this, thanks.
 skip numbers divisible with 7,
 on the number that represents your age add ! (ex. 34!).
 
-function countToHundrer(){
+ function countToHundrer(){
   for (let i=1; i<100; i++){
     if (i % 4 ===0) {
        console.log ("Hey");
@@ -151,8 +151,7 @@ function countToHundrer(){
     else if (i % 6 === 0) {
        console.log ("There");
     } 
-// I could not make this part work, if anyone could help me with this, thanks.
-
+    
     else if (i % 4 === 0 && i % 6 === 0){
        console.log ("Ironhack");
       break;
